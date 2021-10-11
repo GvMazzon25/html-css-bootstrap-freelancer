@@ -1,6 +1,6 @@
 /*Default*/
 .default{
-    height: 10vh;
+    height: 16vh;
     border-color: #000;
     border-width: 1px;
     border-style: solid;
@@ -25,5 +25,9 @@
 
 .margin-auto{
     margin: auto;
+}
+
+.mrg-btt{
+    margin-bottom: 5vh;
 }
 

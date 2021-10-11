@@ -1,12 +1,29 @@
+/*Default*/
+.default{
+    height: 10vh;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
 
+/*Color*/
 .color-1{
     background-color: rgba(44, 62, 80, 1);
+    color: white;
 }
 
 .color-2{
     background-color: rgba(26, 188, 156, 1);
+    color: white;
 }
 
 .color-3{
     background-color: rgba(58, 84, 109, 1);
+    color: white;
 }
+
+.margin-auto{
+    margin: auto;
+}
+

@@ -116,3 +116,33 @@ nav .container .navbar-title{
 .color-star{
     color: rgba(44, 62, 80, 1);
 }
+
+.box-form{
+    width: 550px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.box-form{
+    font-weight: 700;
+}
+
+.box-form .mb-3 input{
+    border: 0;
+    border-bottom: 1px solid rgba(44, 62, 80, 1);
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.box-form .mb-3 textarea{
+    border: 0;
+    border-bottom: 1px solid rgba(44, 62, 80, 1);
+    border-radius: 10px;
+}
+
+#button-green{
+    background-color: rgba(26, 188, 156, 1);
+    color: white;
+    border-color: rgba(26, 188, 156, 1);
+    box-shadow: none;
+}

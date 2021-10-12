@@ -33,11 +33,15 @@
 }
 
 .mrg-btt{
-    margin-bottom: 5vh;
+    margin-bottom: 50px;
+}
+
+.mrg-tp-2{
+    margin-top: 20px;
 }
 
 .mrg-btt-2{
-    margin-bottom: 2vh;
+    margin-bottom: 20px;
 }
 
 /*Nav Section*/
@@ -87,4 +91,28 @@ nav .container .navbar-title{
     height: auto;
     object-fit: contain;
     border-radius: 10px;
+}
+
+/*Second Section*/
+.container-center{
+    margin-left: 50%;
+    transform: translate(-45%);
+}
+
+.button-1{
+    width: 150px;
+    margin-left: 50%;
+    transform: translate(-45%);
+    color: white;
+    border-color: currentColor;
+    font-size: 20px;
+}
+
+/*Third Section*/
+.bg-color-star{
+    background-color: rgba(44, 62, 80, 1);
+}
+
+.color-star{
+    color: rgba(44, 62, 80, 1);
 }

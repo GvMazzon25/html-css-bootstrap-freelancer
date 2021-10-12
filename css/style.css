@@ -44,6 +44,7 @@
     margin-bottom: 20px;
 }
 
+
 /*Nav Section*/
 nav .container .navbar-title{
     font-weight: 700;
@@ -118,10 +119,12 @@ nav .container .navbar-title{
 }
 
 .box-form{
-    width: 550px;
+    width: 70%;
+    min-width: 400px;
     margin-left: 50%;
     transform: translate(-50%);
 }
+
 
 .box-form{
     font-weight: 700;
@@ -145,4 +148,31 @@ nav .container .navbar-title{
     color: white;
     border-color: rgba(26, 188, 156, 1);
     box-shadow: none;
+}
+
+/*Footer Section*/
+.subtitle{
+    font-size: 24px;
+    padding-left: 0;
+}
+
+.symbol{
+    justify-content: space-between;
+    margin-left: -30px;
+}
+
+.symbol li{
+    list-style: none;
+}
+
+.symbol li div{
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.symbol li div i{
+    font-size: 20px;
 }
